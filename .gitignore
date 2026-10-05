@@ -1,0 +1,20 @@
+# Virtual environment (huge, and anyone can recreate it with pip install -r requirements.txt)
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# The database: contains file paths + hashes from YOUR machine. Never publish it.
+fileguard.db
+fileguard.db-journal
+
+# Secrets (none yet, but never commit these)
+.env
+
+# Editor / OS junk
+.vscode/
+.DS_Store
+Thumbs.db
